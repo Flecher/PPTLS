@@ -1,0 +1,233 @@
+@import 'nib/vendor'
+@import 'nib/gradients'
+vendor-prefixes = o ms moz webkit
+
+gris = #34495E 
+gris_claro = #AEAEAE
+azul = #2A80B9
+
+@font-face {
+	font-family: 'icono';
+	src:url('fonts/icomoon.eot?-pe16o1');
+	src:url('fonts/icomoon.eot?#iefix-pe16o1') format('embedded-opentype'),
+		url('fonts/icomoon.woff?-pe16o1') format('woff'),
+		url('fonts/icomoon.ttf?-pe16o1') format('truetype'),
+		url('fonts/icomoon.svg?-pe16o1#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+//Diseño PPTLS	
+body
+	 background url(../img/fondo5.jpg)
+	// background-repeat no-repeat
+
+
+
+.container
+	text-align center
+	background rgba(white,.2)
+	border-radius 2em
+	height auto
+	width auto
+	margin  auto 3em 4.2em 3em
+	top 2em
+	position relative
+
+	#campo
+		border-top 1px dotted white
+		margin 2em
+					
+		.seleccionado
+			
+			display inline-block
+			padding 2em 1em 0 1em
+
+			img
+				border-radius 50%
+				height 100px
+				width 100px
+
+		
+
+		.vs
+			display inline-block
+			
+			img
+				
+				border-radius 50%
+				height 100px
+				width 100px
+
+	.myscore
+		overflow hidden
+
+		#empate
+			background black
+			border 1px solid yellow
+			border-radius 1em  1em 0 0
+			color yellow
+			display inline-block
+			width 306px
+			
+			&:before
+			&:after
+				content"\e600"
+				font-family "icono"
+				padding 1em
+
+		#hombre
+			background black
+			border 1px solid green
+			border-radius 1em  1em 0 0
+			color green
+			display inline-block
+			float left
+			margin auto 1em
+			width 306px
+			&:before
+			&:after
+				content"\e605"
+				font-family "icono"
+				padding 1em
+
+		#maquina
+			background black
+			border 1px solid red
+			border-radius 1em  1em 0 0
+			color red
+			display inline-block
+			float right 
+			margin auto 1em
+			width 306px
+			&:before
+			&:after
+				content"\e604"
+				font-family "icono"
+				padding 1em
+
+	.select
+	
+		.seleccion
+		
+			border-radius 50%
+			cursor pointer
+			height 100px
+			opacity 0.6
+			padding  1em 3em 0 3em 
+			&:hover
+				opacity 1
+				width 110px
+
+	.r
+		margin 1em
+
+		#resultado
+			
+			img
+				height 100px
+				width 100px
+
+			.loser
+			.win
+				border-radius 50%
+				height 150px
+				width 150px
+			
+			a
+			
+				color white
+				text-decoration none
+				text-shadow 2px 2px .6px azul
+
+				h1
+					&:after
+						content "\e603"
+						font-family "icono"
+	
+	
+header
+	background rgba(black,0.6) 
+	border-radius 1em
+	color white
+	margin .5em
+	padding 0.5em
+
+	.logo
+		border-left 1px dotted white
+		border-right 1px dotted white
+		float left
+		margin 0 0 0 1em
+		width 80px
+
+		img
+			padding-left 8px
+			position relative
+			width 80%
+
+	.titular
+		
+		margin 0 70px 0 80px
+		padding 0
+		text-align center
+
+		.titulo
+			
+			margin 0
+			padding 0
+	p
+		
+		color azul
+		padding 0
+
+			
+			
+	.user
+		position absolute
+		right 35px
+		top 20px
+
+		.fme
+			color white
+			position relative
+			right 1em
+			text-align center
+			text-decoration none
+			&:before
+				content"\e606"
+				font-family "icono"
+
+		.avatar
+
+			margin 0 5px 0 0 
+			position relative
+			text-align center
+			width 80px
+
+			img
+				border 2px dotted white
+				border-radius 60%
+				width 60px
+
+
+
+
+
+
+
+
+						
+
+		
+
+
+	
+
+		
+			
+		
+		
+		
+
+
