@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+
+	<meta charset="utf-8" />
+	<meta name="viewport" 
+	content="width=device-width, initial-scale=1, maximum-scale=1"  />
+
+	<title>Mi Primer Proyecto</title>
+	
+	<script type="text/javascript" src="js/ppt.js"></script>
+	<link rel="stylesheet" href="css/normalize.css" />
+	<link rel="stylesheet" href="css/style.css" />
+	
+</head>
+<body>
+
+	<header>
+
+		<div class="logo">
+			<img src="img/logo.png" alt="Logo">
+		</div>
+
+		<div class="titular">
+			<h1 class="titulo">
+				Piedra Papel Tijera Lagarto Spock.
+			</h1>
+			<p>Juega Ahora</p>
+		</div>
+
+		<div class="user">
+			<figure class="avatar">
+				<img src="img/avatar.png" alt="Avatar">
+
+			</figure>
+			
+			<a href="#" class="fme">@miAvatar</a>
+			
+			
+
+		</div>
+
+	</header>
+
+	
+	<div class="container">
+
+		<div class="select">
+		
+		
+			<img class="seleccion" src="img/piedra.png" alt="Piedra" onclick="FPiedra()" />
+			 
+			<img src="img/papel.png" class="seleccion" alt="Papel" onclick="FPapel()" />
+
+			<img src="img/tijera.png" class="seleccion" alt="Tijera" onclick="FTijera()" />
+
+			<img src="img/lagarto.png" class="seleccion" alt="Lagarto" onclick="FLagarto()" />
+
+			<img src="img/spock.png" class="seleccion" alt="Spock" onclick="FSpock()" />
+
+			
+		</div>
+		<div id="campo">
+			<div class="seleccionado" id="selecusuario"></div>
+			<div class="vs" id="versus"></div>
+			<div class="seleccionado" id="selecmaquina"></div>
+		</div>
+		<div class="r">
+			<div id="resultado"></div>
+		</div>
+
+		<div class="myscore">
+			<div id="hombre">0</div>
+			<div id="empate">0</div>
+			<div id="maquina">0</div>
+
+		
+		</div>
+
+
+
+	
+	</div>
+
+	<!-- <footer>
+		<h3>
+			<strong>By Gerardo Sánchez</strong>
+			<span class="x">2014</span>
+		</h3>
+	</footer>
+
+
+ -->
+	
+
+
+
+	
+	
+</body>
+</html>
