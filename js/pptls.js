@@ -277,3 +277,40 @@ function FSpock() {
 
 }//fin funcion
 
+/* PROBAR ESTA PARTE
+
+var usuarioEscoge = prompt("¿Piedra, papel o tijeras?");
+var computadorEscoge = Math.random();
+if (computadorEscoge <0.34){
+	computadorEscoge = "piedra";
+}else if(computadorEscoge <=0.67){
+	computadorEscoge = "papel";
+}else{
+	computadorEscoge = "tijeras";
+}
+
+function comparar(eleccion1,eleccion2){
+    
+    if(eleccion1 === eleccion2){
+        
+        return("¡Es un empate!");
+        
+        }
+        
+        if(eleccion2 === "piedra"){
+            return("piedra gana");
+            if(eleccion2 === "papel"){
+                return("tijera  gana");
+                }
+                else{
+                    
+                    }
+            
+            }
+    };
+    
+    comparar(computadorEscoge,usuarioEscoge);
+    
+
+
+*/
